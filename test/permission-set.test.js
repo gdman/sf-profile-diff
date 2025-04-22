@@ -14,9 +14,9 @@ describe('permission set diff', () => {
 
 		const actualDiff = await permissionSetDiff.getDiff();
 
-		const expectedDiff = fs.readFileSync('test/resources/permission-set-modify-expected.json', 'utf8');
+		const expectedDiff = JSON.parse(fs.readFileSync('test/resources/permission-set-modify-expected.json', 'utf8'));
 
-		expect(JSON.stringify(actualDiff, null, 4)).toEqual(expectedDiff);
+		expect(actualDiff).toEqual(expectedDiff);
 	});
 
 	it('add', async () => {
@@ -29,9 +29,9 @@ describe('permission set diff', () => {
 
 		const actualDiff = await permissionSetDiff.getDiff();
 
-		const expectedDiff = fs.readFileSync('test/resources/permission-set-add-expected.json', 'utf8');
+		const expectedDiff = JSON.parse(fs.readFileSync('test/resources/permission-set-add-expected.json', 'utf8'));
 
-		expect(JSON.stringify(actualDiff, null, 4)).toEqual(expectedDiff);
+		expect(actualDiff).toEqual(expectedDiff);
 	});
 
 	it('delete', async () => {
@@ -44,8 +44,8 @@ describe('permission set diff', () => {
 
 		const actualDiff = await permissionSetDiff.getDiff();
 
-		const expectedDiff = fs.readFileSync('test/resources/permission-set-delete-expected.json', 'utf8');
+		const expectedDiff = JSON.parse(fs.readFileSync('test/resources/permission-set-delete-expected.json', 'utf8'));
 
-		expect(JSON.stringify(actualDiff, null, 4)).toEqual(expectedDiff);
+		expect(actualDiff).toEqual(expectedDiff);
 	});
 });
