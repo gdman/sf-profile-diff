@@ -1,0 +1,279 @@
+{
+    "additions": [],
+    "deletions": [
+        {
+            "permissionType": "applicationVisibilities",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "application": "Delete",
+                    "default": "true",
+                    "visible": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "categoryGroupVisibilities",
+            "id": "DeleteAll",
+            "diff": {
+                "before": {
+                    "dataCategoryGroup": "DeleteAll",
+                    "visibility": "ALL"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "categoryGroupVisibilities",
+            "id": "DeleteSelected",
+            "diff": {
+                "before": {
+                    "dataCategories": [
+                        "X1",
+                        "X2"
+                    ],
+                    "dataCategoryGroup": "DeleteSelected",
+                    "visibility": "CUSTOM"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "classAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "apexClass": "Delete",
+                    "enabled": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "custom",
+            "id": null,
+            "diff": {
+                "before": "true",
+                "after": null
+            }
+        },
+        {
+            "permissionType": "customMetadataTypeAccesses",
+            "id": "Delete__mdt",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete__mdt"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "customPermissions",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "customSettingAccesses",
+            "id": "Delete__c",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete__c"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "description",
+            "id": null,
+            "diff": {
+                "before": "Base",
+                "after": null
+            }
+        },
+        {
+            "permissionType": "externalDataSourceAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "externalDataSource": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "fieldLevelSecurities",
+            "id": "Account.Delete__c",
+            "diff": {
+                "before": {
+                    "editable": "true",
+                    "field": "Account.Delete__c",
+                    "readable": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "fieldPermissions",
+            "id": "Account.Delete__c",
+            "diff": {
+                "before": {
+                    "editable": "true",
+                    "field": "Account.Delete__c",
+                    "readable": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "flowAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "flow": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "layoutAssignments",
+            "id": "A:!DEFAULT!",
+            "diff": {
+                "before": {
+                    "layout": "A-Delete Layout"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "layoutAssignments",
+            "id": "A:A.Delete",
+            "diff": {
+                "before": {
+                    "layout": "A-Delete Layout",
+                    "recordType": "A.Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "loginFlows",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "flow": "Delete",
+                    "flowType": "UI",
+                    "friendlyName": "Delete",
+                    "uiLoginFlowType": "VisualWorkflow",
+                    "useLightningRuntime": "false"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "loginHours",
+            "id": null,
+            "diff": {
+                "before": {
+                    "mondayEnd": "1260",
+                    "mondayStart": "540",
+                    "tuesdayEnd": "1140",
+                    "tuesdayStart": "120"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "loginIpRanges",
+            "id": "undefined:undefined",
+            "diff": {
+                "before": {
+                    "description": "Delete",
+                    "endDeleteress": "10.255.255.255",
+                    "startDeleteress": "0.0.0.0"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "objectPermissions",
+            "id": "Delete__c",
+            "diff": {
+                "before": {
+                    "allowCreate": "true",
+                    "allowDelete": "true",
+                    "allowEdit": "true",
+                    "allowRead": "true",
+                    "modifyAllRecords": "true",
+                    "object": "Delete__c",
+                    "viewAllRecords": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "pageAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "apexPage": "Delete",
+                    "enabled": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "recordTypeVisibilities",
+            "id": "Account.Delete",
+            "diff": {
+                "before": {
+                    "default": "true",
+                    "recordType": "Account.Delete",
+                    "visible": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "tabVisibilities",
+            "id": "Delete__c",
+            "diff": {
+                "before": {
+                    "tab": "Delete__c",
+                    "visibility": "DefaultOn"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "userLicense",
+            "id": null,
+            "diff": {
+                "before": "Base",
+                "after": null
+            }
+        },
+        {
+            "permissionType": "userPermissions",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete"
+                },
+                "after": null
+            }
+        }
+    ],
+    "modifications": []
+}

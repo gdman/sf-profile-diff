@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<applicationVisibilities><application>Delete</application><default>true</default><visible>true</visible></applicationVisibilities>
+<categoryGroupVisibilities><dataCategoryGroup>DeleteAll</dataCategoryGroup><visibility>ALL</visibility></categoryGroupVisibilities>
+<categoryGroupVisibilities><dataCategories>X1</dataCategories><dataCategories>X2</dataCategories><dataCategoryGroup>DeleteSelected</dataCategoryGroup><visibility>CUSTOM</visibility></categoryGroupVisibilities>
+<classAccesses><apexClass>Delete</apexClass><enabled>true</enabled></classAccesses>
+<custom>true</custom>
+<customMetadataTypeAccesses><enabled>true</enabled><name>Delete__mdt</name></customMetadataTypeAccesses>
+<customPermissions><enabled>true</enabled><name>Delete</name></customPermissions>
+<customSettingAccesses><enabled>true</enabled><name>Delete__c</name></customSettingAccesses>
+<description>Base</description>
+<externalDataSourceAccesses><enabled>true</enabled><externalDataSource>Delete</externalDataSource></externalDataSourceAccesses>
+<fieldLevelSecurities><editable>true</editable><field>Account.Delete__c</field><readable>true</readable></fieldLevelSecurities>
+<fieldPermissions><editable>true</editable><field>Account.Delete__c</field><readable>true</readable></fieldPermissions>
+<flowAccesses><enabled>true</enabled><flow>Delete</flow></flowAccesses>
+<layoutAssignments><layout>A-Delete Layout</layout></layoutAssignments>
+<layoutAssignments><layout>A-Delete Layout</layout><recordType>A.Delete</recordType></layoutAssignments>
+<loginFlows><flow>Delete</flow><flowType>UI</flowType><friendlyName>Delete</friendlyName><uiLoginFlowType>VisualWorkflow</uiLoginFlowType><useLightningRuntime>false</useLightningRuntime></loginFlows>
+<loginHours><mondayEnd>1260</mondayEnd><mondayStart>540</mondayStart><tuesdayEnd>1140</tuesdayEnd><tuesdayStart>120</tuesdayStart></loginHours>
+<loginIpRanges><description>Delete</description><endDeleteress>10.255.255.255</endDeleteress><startDeleteress>0.0.0.0</startDeleteress></loginIpRanges>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Delete__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<pageAccesses><apexPage>Delete</apexPage><enabled>true</enabled></pageAccesses>
+<recordTypeVisibilities><default>true</default><recordType>Account.Delete</recordType><visible>true</visible></recordTypeVisibilities>
+<tabVisibilities><tab>Delete__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
+<userLicense>Base</userLicense>
+<userPermissions><enabled>true</enabled><name>Delete</name></userPermissions>
+</Profile>

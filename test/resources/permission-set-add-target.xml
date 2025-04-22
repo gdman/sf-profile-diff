@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+<applicationVisibilities><application>Add</application><visible>true</visible></applicationVisibilities>
+<classAccesses><apexClass>Add</apexClass><enabled>true</enabled></classAccesses>
+<customMetadataTypeAccesses><enabled>true</enabled><name>Add__mdt</name></customMetadataTypeAccesses>
+<customPermissions><enabled>true</enabled><name>Add</name></customPermissions>
+<customSettingAccesses><enabled>true</enabled><name>Add__c</name></customSettingAccesses>
+<description>Target</description>
+<emailRoutingAddressAccesses><enabled>true</enabled><name>Add</name></emailRoutingAddressAccesses>
+<externalCredentialPrincipalAccesses><enabled>true</enabled><externalCredentialPrincipal>Add-Cred</externalCredentialPrincipal></externalCredentialPrincipalAccesses>
+<externalDataSourceAccesses><enabled>true</enabled><externalDataSource>Add</externalDataSource></externalDataSourceAccesses>
+<fieldPermissions><editable>true</editable><field>Account.Add__c</field><readable>true</readable></fieldPermissions>
+<flowAccesses><enabled>true</enabled><flow>Add</flow></flowAccesses>
+<hasActivationRequired>false</hasActivationRequired>
+<label>Target</label>
+<license>Target</license>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Add__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<pageAccesses><apexPage>Add</apexPage><enabled>true</enabled></pageAccesses>
+<recordTypeVisibilities><recordType>Account.Add</recordType><visible>true</visible></recordTypeVisibilities>
+<tabSettings><tab>Add__c</tab><visibility>Visible</visibility></tabSettings>
+<userLicense>Target</userLicense>
+<userPermissions><enabled>true</enabled><name>Add</name></userPermissions>
+</PermissionSet>

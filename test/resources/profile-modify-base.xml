@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<applicationVisibilities><application>Keep</application><default>false</default><visible>true</visible></applicationVisibilities>
+<applicationVisibilities><application>Modify</application><default>false</default><visible>true</visible></applicationVisibilities>
+<applicationVisibilities><application>Delete</application><default>false</default><visible>true</visible></applicationVisibilities>
+<categoryGroupVisibilities><dataCategoryGroup>KeepAll</dataCategoryGroup><visibility>ALL</visibility></categoryGroupVisibilities>
+<categoryGroupVisibilities><dataCategoryGroup>ModifyAll</dataCategoryGroup><visibility>ALL</visibility></categoryGroupVisibilities>
+<categoryGroupVisibilities><dataCategoryGroup>DeleteAll</dataCategoryGroup><visibility>ALL</visibility></categoryGroupVisibilities>
+<categoryGroupVisibilities><dataCategories>X1</dataCategories><dataCategories>X2</dataCategories><dataCategoryGroup>KeepSelected</dataCategoryGroup><visibility>CUSTOM</visibility></categoryGroupVisibilities>
+<categoryGroupVisibilities><dataCategories>X1</dataCategories><dataCategories>X2</dataCategories><dataCategoryGroup>ModifySelected</dataCategoryGroup><visibility>CUSTOM</visibility></categoryGroupVisibilities>
+<categoryGroupVisibilities><dataCategories>X1</dataCategories><dataCategories>X2</dataCategories><dataCategoryGroup>DeleteSelected</dataCategoryGroup><visibility>CUSTOM</visibility></categoryGroupVisibilities>
+<classAccesses><apexClass>Keep</apexClass><enabled>true</enabled></classAccesses>
+<classAccesses><apexClass>Modify</apexClass><enabled>true</enabled></classAccesses>
+<classAccesses><apexClass>Delete</apexClass><enabled>true</enabled></classAccesses>
+<custom>false</custom>
+<customMetadataTypeAccesses><enabled>true</enabled><name>Keep__mdt</name></customMetadataTypeAccesses>
+<customMetadataTypeAccesses><enabled>true</enabled><name>Modify__mdt</name></customMetadataTypeAccesses>
+<customMetadataTypeAccesses><enabled>true</enabled><name>Delete__mdt</name></customMetadataTypeAccesses>
+<customPermissions><enabled>true</enabled><name>Keep</name></customPermissions>
+<customPermissions><enabled>true</enabled><name>Modify</name></customPermissions>
+<customPermissions><enabled>true</enabled><name>Delete</name></customPermissions>
+<customSettingAccesses><enabled>true</enabled><name>Keep__c</name></customSettingAccesses>
+<customSettingAccesses><enabled>true</enabled><name>Modify__c</name></customSettingAccesses>
+<customSettingAccesses><enabled>true</enabled><name>Delete__c</name></customSettingAccesses>
+<description>Base</description>
+<externalDataSourceAccesses><enabled>true</enabled><externalDataSource>Keep</externalDataSource></externalDataSourceAccesses>
+<externalDataSourceAccesses><enabled>true</enabled><externalDataSource>Modify</externalDataSource></externalDataSourceAccesses>
+<externalDataSourceAccesses><enabled>true</enabled><externalDataSource>Delete</externalDataSource></externalDataSourceAccesses>
+<fieldLevelSecurities><editable>true</editable><field>Account.Keep__c</field><readable>true</readable></fieldLevelSecurities>
+<fieldLevelSecurities><editable>true</editable><field>Account.Modify__c</field><readable>true</readable></fieldLevelSecurities>
+<fieldLevelSecurities><editable>true</editable><field>Account.Delete__c</field><readable>true</readable></fieldLevelSecurities>
+<fieldPermissions><editable>true</editable><field>Account.Keep__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Account.Modify__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Account.Delete__c</field><readable>true</readable></fieldPermissions>
+<flowAccesses><enabled>true</enabled><flow>Keep</flow></flowAccesses>
+<flowAccesses><enabled>true</enabled><flow>Modify</flow></flowAccesses>
+<flowAccesses><enabled>true</enabled><flow>Delete</flow></flowAccesses>
+<layoutAssignments><layout>A-Keep Layout</layout></layoutAssignments>
+<layoutAssignments><layout>A-Keep Layout</layout><recordType>A.Keep1</recordType></layoutAssignments>
+<layoutAssignments><layout>A-Keep Layout</layout><recordType>A.Keep2</recordType></layoutAssignments>
+<layoutAssignments><layout>B-Modify Layout</layout></layoutAssignments>
+<layoutAssignments><layout>C-Modify Layout</layout></layoutAssignments>
+<layoutAssignments><layout>C-Modify Layout</layout><recordType>Account.Keep</recordType></layoutAssignments>
+<layoutAssignments><layout>C-Modify Layout</layout><recordType>Account.Delete</recordType></layoutAssignments>
+<layoutAssignments><layout>D-Delete Layout</layout></layoutAssignments>
+<loginFlows><flow>Keep</flow><flowType>UI</flowType><friendlyName>Keep</friendlyName><uiLoginFlowType>VisualWorkflow</uiLoginFlowType><useLightningRuntime>false</useLightningRuntime></loginFlows>
+<loginFlows><flow>Modify</flow><flowType>UI</flowType><friendlyName>Modify</friendlyName><uiLoginFlowType>VisualWorkflow</uiLoginFlowType><useLightningRuntime>false</useLightningRuntime></loginFlows>
+<loginFlows><flow>Delete</flow><flowType>UI</flowType><friendlyName>Delete</friendlyName><uiLoginFlowType>VisualWorkflow</uiLoginFlowType><useLightningRuntime>false</useLightningRuntime></loginFlows>
+<loginHours><mondayEnd>1260</mondayEnd><mondayStart>540</mondayStart><tuesdayEnd>1140</tuesdayEnd><tuesdayStart>120</tuesdayStart></loginHours>
+<loginIpRanges><description>Keep</description><endAddress>10.255.255.255</endAddress><startAddress>0.0.0.0</startAddress></loginIpRanges>
+<loginIpRanges><description>Modify</description><endAddress>12.255.255.255</endAddress><startAddress>11.0.0.0</startAddress></loginIpRanges>
+<loginIpRanges><description>Delete</description><endAddress>15.255.255.255</endAddress><startAddress>15.0.0.0</startAddress></loginIpRanges>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Keep__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Modify__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Delete__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<pageAccesses><apexPage>Keep</apexPage><enabled>true</enabled></pageAccesses>
+<pageAccesses><apexPage>Modify</apexPage><enabled>true</enabled></pageAccesses>
+<pageAccesses><apexPage>Delete</apexPage><enabled>true</enabled></pageAccesses>
+<recordTypeVisibilities><default>true</default><recordType>Account.Keep</recordType><visible>true</visible></recordTypeVisibilities>
+<recordTypeVisibilities><default>false</default><recordType>Account.Modify</recordType><visible>true</visible></recordTypeVisibilities>
+<recordTypeVisibilities><default>false</default><recordType>Account.Delete</recordType><visible>true</visible></recordTypeVisibilities>
+<tabVisibilities><tab>Keep__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
+<tabVisibilities><tab>Modify__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
+<tabVisibilities><tab>Delete__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
+<userLicense>Base</userLicense>
+<userPermissions><enabled>true</enabled><name>Keep</name></userPermissions>
+<userPermissions><enabled>true</enabled><name>Modify</name></userPermissions>
+<userPermissions><enabled>true</enabled><name>Delete</name></userPermissions>
+</Profile>

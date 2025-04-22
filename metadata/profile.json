@@ -1,0 +1,75 @@
+{
+	"applicationVisibilities": {
+		"key": "application"
+	},
+	"categoryGroupVisibilities": {
+		"key": "dataCategoryGroup"
+	},
+	"classAccesses": {
+		"key": "apexClass"
+	},
+	"custom": {
+		"keyHandler": "noKey"
+	},
+	"customMetadataTypeAccesses": {
+		"key": "name"
+	},
+	"customPermissions": {
+		"key": "name"
+	},
+	"customSettingAccesses": {
+		"key": "name"
+	},
+	"description": {
+		"keyHandler": "noKey"
+	},
+	"externalDataSourceAccesses": {
+		"key": "externalDataSource"
+	},
+	"fieldLevelSecurities": {
+		"key": "field"
+	},
+	"fieldPermissions": {
+		"key": "field"
+	},
+	"flowAccesses": {
+		"key": "flow"
+	},
+	"fullName": {
+		"keyHandler": "noKey"
+	},
+	"layoutAssignments": {
+		"keyHandler": "layoutAssignment"
+	},
+	"loginFlows": {
+		"key": "flow"
+	},
+	"loginHours": {
+		"keyHandler": "noKey"
+	},
+	"loginIpRanges": {
+		"keyHandler": "loginIpRange"
+	},
+	"objectPermissions": {
+		"key": "object"
+	},
+	"pageAccesses": {
+		"key": "apexPage"
+	},
+	"profileActionOverrides": {
+		"keyHandler": "noKey",
+		"notes": "No longer in the API therefore not going to try anything clever - compare as is without key matching"
+	},
+	"recordTypeVisibilities": {
+		"key": "recordType"
+	},
+	"tabVisibilities": {
+		"key": "tab"
+	},
+	"userLicense": {
+		"keyHandler": "noKey"
+	},
+	"userPermissions": {
+		"key": "name"
+	}
+}

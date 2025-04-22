@@ -1,0 +1,217 @@
+{
+    "additions": [],
+    "deletions": [
+        {
+            "permissionType": "applicationVisibilities",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "application": "Delete",
+                    "visible": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "classAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "apexClass": "Delete",
+                    "enabled": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "customMetadataTypeAccesses",
+            "id": "Delete__mdt",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete__mdt"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "customPermissions",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "customSettingAccesses",
+            "id": "Delete__c",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete__c"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "description",
+            "id": null,
+            "diff": {
+                "before": "Base",
+                "after": null
+            }
+        },
+        {
+            "permissionType": "emailRoutingAddressAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "externalCredentialPrincipalAccesses",
+            "id": "Delete-Cred",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "externalCredentialPrincipal": "Delete-Cred"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "externalDataSourceAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "externalDataSource": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "fieldPermissions",
+            "id": "Account.Delete__c",
+            "diff": {
+                "before": {
+                    "editable": "true",
+                    "field": "Account.Delete__c",
+                    "readable": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "flowAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "flow": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "hasActivationRequired",
+            "id": null,
+            "diff": {
+                "before": "false",
+                "after": null
+            }
+        },
+        {
+            "permissionType": "label",
+            "id": null,
+            "diff": {
+                "before": "Base",
+                "after": null
+            }
+        },
+        {
+            "permissionType": "license",
+            "id": null,
+            "diff": {
+                "before": "Base",
+                "after": null
+            }
+        },
+        {
+            "permissionType": "objectPermissions",
+            "id": "Delete__c",
+            "diff": {
+                "before": {
+                    "allowCreate": "true",
+                    "allowDelete": "true",
+                    "allowEdit": "true",
+                    "allowRead": "true",
+                    "modifyAllRecords": "true",
+                    "object": "Delete__c",
+                    "viewAllRecords": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "pageAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "apexPage": "Delete",
+                    "enabled": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "recordTypeVisibilities",
+            "id": "Account.Delete",
+            "diff": {
+                "before": {
+                    "recordType": "Account.Delete",
+                    "visible": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "tabSettings",
+            "id": "Delete__c",
+            "diff": {
+                "before": {
+                    "tab": "Delete__c",
+                    "visibility": "Visible"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "userLicense",
+            "id": null,
+            "diff": {
+                "before": "Base",
+                "after": null
+            }
+        },
+        {
+            "permissionType": "userPermissions",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete"
+                },
+                "after": null
+            }
+        }
+    ],
+    "modifications": []
+}

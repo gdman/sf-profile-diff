@@ -1,0 +1,32 @@
+{
+  "name": "sf-profile-diff",
+  "version": "0.1.0-alpha.0",
+  "description": "Library for comparing Salesforce profile and permission set metadata",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Andrew Goodman",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "homepage": "https://github.com/gdman/sf-profile-diff",
+  "repository": "github:gdman/sf-profile-diff",
+  "keywords": [
+    "salesforce",
+    "sf",
+    "metadata",
+    "compare",
+    "diff"
+  ]
+}

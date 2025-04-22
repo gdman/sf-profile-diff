@@ -1,0 +1,858 @@
+{
+    "additions": [
+        {
+            "permissionType": "applicationVisibilities",
+            "id": "Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "application": "Add",
+                    "default": "false",
+                    "visible": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "categoryGroupVisibilities",
+            "id": "AddAll",
+            "diff": {
+                "before": null,
+                "after": {
+                    "dataCategoryGroup": "AddAll",
+                    "visibility": "ALL"
+                }
+            }
+        },
+        {
+            "permissionType": "categoryGroupVisibilities",
+            "id": "AddSelected",
+            "diff": {
+                "before": null,
+                "after": {
+                    "dataCategories": [
+                        "X1",
+                        "X2"
+                    ],
+                    "dataCategoryGroup": "AddSelected",
+                    "visibility": "CUSTOM"
+                }
+            }
+        },
+        {
+            "permissionType": "classAccesses",
+            "id": "Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "apexClass": "Add",
+                    "enabled": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "customMetadataTypeAccesses",
+            "id": "Add__mdt",
+            "diff": {
+                "before": null,
+                "after": {
+                    "enabled": "true",
+                    "name": "Add__mdt"
+                }
+            }
+        },
+        {
+            "permissionType": "customPermissions",
+            "id": "Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "enabled": "true",
+                    "name": "Add"
+                }
+            }
+        },
+        {
+            "permissionType": "customSettingAccesses",
+            "id": "Add__c",
+            "diff": {
+                "before": null,
+                "after": {
+                    "enabled": "true",
+                    "name": "Add__c"
+                }
+            }
+        },
+        {
+            "permissionType": "externalDataSourceAccesses",
+            "id": "Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "enabled": "true",
+                    "externalDataSource": "Add"
+                }
+            }
+        },
+        {
+            "permissionType": "fieldLevelSecurities",
+            "id": "Account.Add__c",
+            "diff": {
+                "before": null,
+                "after": {
+                    "editable": "true",
+                    "field": "Account.Add__c",
+                    "readable": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "fieldPermissions",
+            "id": "Account.Add__c",
+            "diff": {
+                "before": null,
+                "after": {
+                    "editable": "true",
+                    "field": "Account.Add__c",
+                    "readable": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "flowAccesses",
+            "id": "Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "enabled": "true",
+                    "flow": "Add"
+                }
+            }
+        },
+        {
+            "permissionType": "layoutAssignments",
+            "id": "C:Account.Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "layout": "C-Modify Updated Layout",
+                    "recordType": "Account.Add"
+                }
+            }
+        },
+        {
+            "permissionType": "layoutAssignments",
+            "id": "E:!DEFAULT!",
+            "diff": {
+                "before": null,
+                "after": {
+                    "layout": "E-Add Layout"
+                }
+            }
+        },
+        {
+            "permissionType": "loginFlows",
+            "id": "Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "flow": "Add",
+                    "flowType": "UI",
+                    "friendlyName": "Add",
+                    "uiLoginFlowType": "VisualWorkflow",
+                    "useLightningRuntime": "false"
+                }
+            }
+        },
+        {
+            "permissionType": "loginIpRanges",
+            "id": "16.0.0.0:16.255.255.255",
+            "diff": {
+                "before": null,
+                "after": {
+                    "description": "Add",
+                    "endAddress": "16.255.255.255",
+                    "startAddress": "16.0.0.0"
+                }
+            }
+        },
+        {
+            "permissionType": "objectPermissions",
+            "id": "Add__c",
+            "diff": {
+                "before": null,
+                "after": {
+                    "allowCreate": "true",
+                    "allowDelete": "true",
+                    "allowEdit": "true",
+                    "allowRead": "true",
+                    "modifyAllRecords": "true",
+                    "object": "Add__c",
+                    "viewAllRecords": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "pageAccesses",
+            "id": "Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "apexPage": "Add",
+                    "enabled": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "recordTypeVisibilities",
+            "id": "Account.ABC",
+            "diff": {
+                "before": null,
+                "after": {
+                    "default": "true",
+                    "recordType": "Account.ABC",
+                    "visible": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "recordTypeVisibilities",
+            "id": "Account.Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "default": "false",
+                    "recordType": "Account.Add",
+                    "visible": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "tabVisibilities",
+            "id": "Add__c",
+            "diff": {
+                "before": null,
+                "after": {
+                    "tab": "Add__c",
+                    "visibility": "DefaultOff"
+                }
+            }
+        },
+        {
+            "permissionType": "userPermissions",
+            "id": "Add",
+            "diff": {
+                "before": null,
+                "after": {
+                    "enabled": "true",
+                    "name": "Add"
+                }
+            }
+        }
+    ],
+    "deletions": [
+        {
+            "permissionType": "applicationVisibilities",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "application": "Delete",
+                    "default": "false",
+                    "visible": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "categoryGroupVisibilities",
+            "id": "DeleteAll",
+            "diff": {
+                "before": {
+                    "dataCategoryGroup": "DeleteAll",
+                    "visibility": "ALL"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "categoryGroupVisibilities",
+            "id": "DeleteSelected",
+            "diff": {
+                "before": {
+                    "dataCategories": [
+                        "X1",
+                        "X2"
+                    ],
+                    "dataCategoryGroup": "DeleteSelected",
+                    "visibility": "CUSTOM"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "classAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "apexClass": "Delete",
+                    "enabled": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "customMetadataTypeAccesses",
+            "id": "Delete__mdt",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete__mdt"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "customPermissions",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "customSettingAccesses",
+            "id": "Delete__c",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete__c"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "externalDataSourceAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "externalDataSource": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "fieldLevelSecurities",
+            "id": "Account.Delete__c",
+            "diff": {
+                "before": {
+                    "editable": "true",
+                    "field": "Account.Delete__c",
+                    "readable": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "fieldPermissions",
+            "id": "Account.Delete__c",
+            "diff": {
+                "before": {
+                    "editable": "true",
+                    "field": "Account.Delete__c",
+                    "readable": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "flowAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "flow": "Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "layoutAssignments",
+            "id": "C:Account.Delete",
+            "diff": {
+                "before": {
+                    "layout": "C-Modify Layout",
+                    "recordType": "Account.Delete"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "layoutAssignments",
+            "id": "D:!DEFAULT!",
+            "diff": {
+                "before": {
+                    "layout": "D-Delete Layout"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "loginFlows",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "flow": "Delete",
+                    "flowType": "UI",
+                    "friendlyName": "Delete",
+                    "uiLoginFlowType": "VisualWorkflow",
+                    "useLightningRuntime": "false"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "loginIpRanges",
+            "id": "15.0.0.0:15.255.255.255",
+            "diff": {
+                "before": {
+                    "description": "Delete",
+                    "endAddress": "15.255.255.255",
+                    "startAddress": "15.0.0.0"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "objectPermissions",
+            "id": "Delete__c",
+            "diff": {
+                "before": {
+                    "allowCreate": "true",
+                    "allowDelete": "true",
+                    "allowEdit": "true",
+                    "allowRead": "true",
+                    "modifyAllRecords": "true",
+                    "object": "Delete__c",
+                    "viewAllRecords": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "pageAccesses",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "apexPage": "Delete",
+                    "enabled": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "recordTypeVisibilities",
+            "id": "Account.Delete",
+            "diff": {
+                "before": {
+                    "default": "false",
+                    "recordType": "Account.Delete",
+                    "visible": "true"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "tabVisibilities",
+            "id": "Delete__c",
+            "diff": {
+                "before": {
+                    "tab": "Delete__c",
+                    "visibility": "DefaultOn"
+                },
+                "after": null
+            }
+        },
+        {
+            "permissionType": "userPermissions",
+            "id": "Delete",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Delete"
+                },
+                "after": null
+            }
+        }
+    ],
+    "modifications": [
+        {
+            "permissionType": "applicationVisibilities",
+            "id": "Modify",
+            "diff": {
+                "before": {
+                    "application": "Modify",
+                    "default": "false",
+                    "visible": "true"
+                },
+                "after": {
+                    "application": "Modify",
+                    "default": "true",
+                    "visible": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "categoryGroupVisibilities",
+            "id": "ModifyAll",
+            "diff": {
+                "before": {
+                    "dataCategoryGroup": "ModifyAll",
+                    "visibility": "ALL"
+                },
+                "after": {
+                    "dataCategoryGroup": "ModifyAll",
+                    "visibility": "ALL-Modified"
+                }
+            }
+        },
+        {
+            "permissionType": "categoryGroupVisibilities",
+            "id": "ModifySelected",
+            "diff": {
+                "before": {
+                    "dataCategories": [
+                        "X1",
+                        "X2"
+                    ],
+                    "dataCategoryGroup": "ModifySelected",
+                    "visibility": "CUSTOM"
+                },
+                "after": {
+                    "dataCategories": [
+                        "X1",
+                        "X3"
+                    ],
+                    "dataCategoryGroup": "ModifySelected",
+                    "visibility": "CUSTOM"
+                }
+            }
+        },
+        {
+            "permissionType": "classAccesses",
+            "id": "Modify",
+            "diff": {
+                "before": {
+                    "apexClass": "Modify",
+                    "enabled": "true"
+                },
+                "after": {
+                    "apexClass": "Modify",
+                    "enabled": "false"
+                }
+            }
+        },
+        {
+            "permissionType": "custom",
+            "id": null,
+            "diff": {
+                "before": "false",
+                "after": "true"
+            }
+        },
+        {
+            "permissionType": "customMetadataTypeAccesses",
+            "id": "Modify__mdt",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Modify__mdt"
+                },
+                "after": {
+                    "enabled": "false",
+                    "name": "Modify__mdt"
+                }
+            }
+        },
+        {
+            "permissionType": "customPermissions",
+            "id": "Modify",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Modify"
+                },
+                "after": {
+                    "enabled": "false",
+                    "name": "Modify"
+                }
+            }
+        },
+        {
+            "permissionType": "customSettingAccesses",
+            "id": "Modify__c",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Modify__c"
+                },
+                "after": {
+                    "enabled": "false",
+                    "name": "Modify__c"
+                }
+            }
+        },
+        {
+            "permissionType": "description",
+            "id": null,
+            "diff": {
+                "before": "Base",
+                "after": "Target"
+            }
+        },
+        {
+            "permissionType": "externalDataSourceAccesses",
+            "id": "Modify",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "externalDataSource": "Modify"
+                },
+                "after": {
+                    "enabled": "false",
+                    "externalDataSource": "Modify"
+                }
+            }
+        },
+        {
+            "permissionType": "fieldLevelSecurities",
+            "id": "Account.Modify__c",
+            "diff": {
+                "before": {
+                    "editable": "true",
+                    "field": "Account.Modify__c",
+                    "readable": "true"
+                },
+                "after": {
+                    "editable": "false",
+                    "field": "Account.Modify__c",
+                    "readable": "false"
+                }
+            }
+        },
+        {
+            "permissionType": "fieldPermissions",
+            "id": "Account.Modify__c",
+            "diff": {
+                "before": {
+                    "editable": "true",
+                    "field": "Account.Modify__c",
+                    "readable": "true"
+                },
+                "after": {
+                    "editable": "false",
+                    "field": "Account.Modify__c",
+                    "readable": "false"
+                }
+            }
+        },
+        {
+            "permissionType": "flowAccesses",
+            "id": "Modify",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "flow": "Modify"
+                },
+                "after": {
+                    "enabled": "false",
+                    "flow": "Modify"
+                }
+            }
+        },
+        {
+            "permissionType": "layoutAssignments",
+            "id": "B:!DEFAULT!",
+            "diff": {
+                "before": {
+                    "layout": "B-Modify Layout"
+                },
+                "after": {
+                    "layout": "B-Modify Updated Layout"
+                }
+            }
+        },
+        {
+            "permissionType": "layoutAssignments",
+            "id": "C:!DEFAULT!",
+            "diff": {
+                "before": {
+                    "layout": "C-Modify Layout"
+                },
+                "after": {
+                    "layout": "C-Modify Updated Layout"
+                }
+            }
+        },
+        {
+            "permissionType": "layoutAssignments",
+            "id": "C:Account.Keep",
+            "diff": {
+                "before": {
+                    "layout": "C-Modify Layout",
+                    "recordType": "Account.Keep"
+                },
+                "after": {
+                    "layout": "C-Modify Updated Layout",
+                    "recordType": "Account.Keep"
+                }
+            }
+        },
+        {
+            "permissionType": "loginFlows",
+            "id": "Modify",
+            "diff": {
+                "before": {
+                    "flow": "Modify",
+                    "flowType": "UI",
+                    "friendlyName": "Modify",
+                    "uiLoginFlowType": "VisualWorkflow",
+                    "useLightningRuntime": "false"
+                },
+                "after": {
+                    "flow": "Modify",
+                    "flowType": "UI",
+                    "friendlyName": "Modify",
+                    "uiLoginFlowType": "VisualWorkflow",
+                    "useLightningRuntime": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "loginHours",
+            "id": null,
+            "diff": {
+                "before": {
+                    "mondayEnd": "1260",
+                    "mondayStart": "540",
+                    "tuesdayEnd": "1140",
+                    "tuesdayStart": "120"
+                },
+                "after": {
+                    "mondayEnd": "1260",
+                    "mondayStart": "540",
+                    "wednesdayEnd": "1140",
+                    "wednesdayStart": "120"
+                }
+            }
+        },
+        {
+            "permissionType": "loginIpRanges",
+            "id": "11.0.0.0:12.255.255.255",
+            "diff": {
+                "before": {
+                    "description": "Modify",
+                    "endAddress": "12.255.255.255",
+                    "startAddress": "11.0.0.0"
+                },
+                "after": {
+                    "description": "Modify updated",
+                    "endAddress": "12.255.255.255",
+                    "startAddress": "11.0.0.0"
+                }
+            }
+        },
+        {
+            "permissionType": "objectPermissions",
+            "id": "Modify__c",
+            "diff": {
+                "before": {
+                    "allowCreate": "true",
+                    "allowDelete": "true",
+                    "allowEdit": "true",
+                    "allowRead": "true",
+                    "modifyAllRecords": "true",
+                    "object": "Modify__c",
+                    "viewAllRecords": "true"
+                },
+                "after": {
+                    "allowCreate": "false",
+                    "allowDelete": "false",
+                    "allowEdit": "true",
+                    "allowRead": "true",
+                    "modifyAllRecords": "true",
+                    "object": "Modify__c",
+                    "viewAllRecords": "true"
+                }
+            }
+        },
+        {
+            "permissionType": "pageAccesses",
+            "id": "Modify",
+            "diff": {
+                "before": {
+                    "apexPage": "Modify",
+                    "enabled": "true"
+                },
+                "after": {
+                    "apexPage": "Modify",
+                    "enabled": "false"
+                }
+            }
+        },
+        {
+            "permissionType": "recordTypeVisibilities",
+            "id": "Account.Modify",
+            "diff": {
+                "before": {
+                    "default": "false",
+                    "recordType": "Account.Modify",
+                    "visible": "true"
+                },
+                "after": {
+                    "default": "false",
+                    "recordType": "Account.Modify",
+                    "visible": "false"
+                }
+            }
+        },
+        {
+            "permissionType": "tabVisibilities",
+            "id": "Modify__c",
+            "diff": {
+                "before": {
+                    "tab": "Modify__c",
+                    "visibility": "DefaultOn"
+                },
+                "after": {
+                    "tab": "Modify__c",
+                    "visibility": "Hidden"
+                }
+            }
+        },
+        {
+            "permissionType": "userLicense",
+            "id": null,
+            "diff": {
+                "before": "Base",
+                "after": "Target"
+            }
+        },
+        {
+            "permissionType": "userPermissions",
+            "id": "Modify",
+            "diff": {
+                "before": {
+                    "enabled": "true",
+                    "name": "Modify"
+                },
+                "after": {
+                    "enabled": "false",
+                    "name": "Modify"
+                }
+            }
+        }
+    ]
+}

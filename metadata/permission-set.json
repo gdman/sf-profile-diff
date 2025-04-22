@@ -1,0 +1,62 @@
+{
+	"applicationVisibilities": {
+		"key": "application"
+	},
+	"classAccesses": {
+		"key": "apexClass"
+	},
+	"customMetadataTypeAccesses": {
+		"key": "name"
+	},
+	"customPermissions": {
+		"key": "name"
+	},
+	"customSettingAccesses": {
+		"key": "name"
+	},
+	"description": {
+		"keyHandler": "noKey"
+	},
+	"emailRoutingAddressAccesses": {
+		"key": "name"
+	},
+	"externalCredentialPrincipalAccesses": {
+		"key": "externalCredentialPrincipal"
+	},
+	"externalDataSourceAccesses": {
+		"key": "externalDataSource"
+	},
+	"fieldPermissions": {
+		"key": "field"
+	},
+	"flowAccesses": {
+		"key": "flow"
+	},
+	"hasActivationRequired": {
+		"keyHandler": "noKey"
+	},
+	"label": {
+		"keyHandler": "noKey"
+	},
+	"license": {
+		"keyHandler": "noKey"
+	},
+	"objectPermissions": {
+		"key": "object"
+	},
+	"pageAccesses": {
+		"key": "apexPage"
+	},
+	"recordTypeVisibilities": {
+		"key": "recordType"
+	},
+	"tabSettings": {
+		"key": "tab"
+	},
+	"userLicense": {
+		"keyHandler": "noKey"
+	},
+	"userPermissions": {
+		"key": "name"
+	}
+}

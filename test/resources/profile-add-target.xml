@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<applicationVisibilities><application>Add</application><default>true</default><visible>true</visible></applicationVisibilities>
+<categoryGroupVisibilities><dataCategoryGroup>AddAll</dataCategoryGroup><visibility>ALL</visibility></categoryGroupVisibilities>
+<categoryGroupVisibilities><dataCategories>X1</dataCategories><dataCategories>X2</dataCategories><dataCategoryGroup>AddSelected</dataCategoryGroup><visibility>CUSTOM</visibility></categoryGroupVisibilities>
+<classAccesses><apexClass>Add</apexClass><enabled>true</enabled></classAccesses>
+<custom>true</custom>
+<customMetadataTypeAccesses><enabled>true</enabled><name>Add__mdt</name></customMetadataTypeAccesses>
+<customPermissions><enabled>true</enabled><name>Add</name></customPermissions>
+<customSettingAccesses><enabled>true</enabled><name>Add__c</name></customSettingAccesses>
+<description>Target</description>
+<externalDataSourceAccesses><enabled>true</enabled><externalDataSource>Add</externalDataSource></externalDataSourceAccesses>
+<fieldLevelSecurities><editable>true</editable><field>Account.Add__c</field><readable>true</readable></fieldLevelSecurities>
+<fieldPermissions><editable>true</editable><field>Account.Add__c</field><readable>true</readable></fieldPermissions>
+<flowAccesses><enabled>true</enabled><flow>Add</flow></flowAccesses>
+<layoutAssignments><layout>A-Add Layout</layout></layoutAssignments>
+<layoutAssignments><layout>A-Add Layout</layout><recordType>A.Add</recordType></layoutAssignments>
+<loginFlows><flow>Add</flow><flowType>UI</flowType><friendlyName>Add</friendlyName><uiLoginFlowType>VisualWorkflow</uiLoginFlowType><useLightningRuntime>false</useLightningRuntime></loginFlows>
+<loginHours><mondayEnd>1260</mondayEnd><mondayStart>540</mondayStart><tuesdayEnd>1140</tuesdayEnd><tuesdayStart>120</tuesdayStart></loginHours>
+<loginIpRanges><description>Add</description><endAddress>10.255.255.255</endAddress><startAddress>0.0.0.0</startAddress></loginIpRanges>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Add__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<pageAccesses><apexPage>Add</apexPage><enabled>true</enabled></pageAccesses>
+<recordTypeVisibilities><default>true</default><recordType>Account.Add</recordType><visible>true</visible></recordTypeVisibilities>
+<tabVisibilities><tab>Add__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
+<userLicense>Target</userLicense>
+<userPermissions><enabled>true</enabled><name>Add</name></userPermissions>
+</Profile>
