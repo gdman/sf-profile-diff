@@ -13,9 +13,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Use Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v4
       with:
         node-version: 22.x
     - name: Increment Version, Test and Pack
@@ -28,12 +28,12 @@ jobs:
         npm test
         npm pack
     - name: Archive JS build
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: build
         path: lib
     - name: Archive code coverage results
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: code-coverage-report
         path: coverage
@@ -55,7 +55,7 @@ jobs:
         asset_path: ./sf-profile-diff-${{ env.version }}.tgz
         asset_name: sf-profile-diff-${{ env.version }}.tgz
         asset_content_type: application/tgz
-    - uses: actions/setup-node@v1
+    - uses: actions/setup-node@v4
       with:
         node-version: 22
         registry-url: https://registry.npmjs.org/
